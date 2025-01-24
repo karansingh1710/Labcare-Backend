@@ -2,7 +2,7 @@ package com.karan.service;
 
 import com.karan.config.CaesarCipher;
 import com.karan.dao.Student;
-import com.karan.repo.AdminRepo;
+// import com.karan.repo.AdminRepo;
 import com.karan.repo.StudentRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
