@@ -223,6 +223,7 @@
 <script src="/js/script.js"></script>
 </body>
 </html> -->
+
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
@@ -260,6 +261,26 @@
                         <h5 class="card-title text-primary" th:text="${post.title}"></h5>
                         <p class="card-text" th:text="${post.summary}"></p>
                         <a th:href="@{'/blog/' + ${post.id}}" class="btn btn-outline-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Dummy Posts -->
+            <div class="col-md-6 mb-4">
+                <div class="card blog-card shadow">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary">Understanding Spring Boot</h5>
+                        <p class="card-text">A beginner-friendly guide to getting started with Spring Boot.</p>
+                        <a href="#" class="btn btn-outline-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card blog-card shadow">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary">RESTful APIs with Spring</h5>
+                        <p class="card-text">Learn how to build and deploy RESTful APIs using Spring Boot.</p>
+                        <a href="#" class="btn btn-outline-primary">Read More</a>
                     </div>
                 </div>
             </div>
