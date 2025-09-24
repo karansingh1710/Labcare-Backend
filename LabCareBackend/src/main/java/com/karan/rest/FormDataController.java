@@ -63,7 +63,7 @@ public class FormDataController {
     @PostMapping("report-issue")
     public String register(@ModelAttribute PCSystem pcSystem){
         systemService.registerIssue(pcSystem);
-        return "success";
+        return "success1";
     }
 
     @GetMapping("/blogs")
